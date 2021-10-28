@@ -5,7 +5,7 @@ int x = 0;
 int pins[][3] = { {3, 5, 6}, {9, 10, 11} };
 
 void setup() {
-  Wire.begin(1);
+  Wire.begin(2);
   Wire.onReceive(receiveEvent);
   
   Serial.begin(9600);
